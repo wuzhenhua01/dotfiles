@@ -1,0 +1,12 @@
+[user]
+	name = xiaowu
+	email = 1766128467@qq.com
+[core]
+	autocrlf = input
+[credential]
+	helper = store
+[http]
+  proxy = http://127.0.0.1:7890
+[https]
+  sslverify = false
+  proxy = https://127.0.0.1:7890
