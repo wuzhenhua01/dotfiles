@@ -152663,3 +152663,355 @@ config commit -m 'Add hiverc'
 config add ~/.m2/settings.xml 
 #1706014257
 config commit -m 'Add maven settings'
+#1706014264
+config add ~/.bash_history 
+#1706014270
+config commit -m 'Add bash history'
+#1706014276
+cat .testcontainers.properties 
+#1706014300
+cat .gitconfig 
+#1706014307
+config add ~/.gitconfig 
+#1706014314
+config commit -m 'Add gitconfig'
+#1706014370
+rm -rf .sparkStaging/
+#1706014450
+config push --mirror https://github.com/wuzhenhua01/dotfiles.git
+#1706015634
+cat .v8flags.4.5.103.37.c8656031bea25bb9d69600934d98423d.json 
+#1706015664
+rm -rf .v8flags.4.5.103.37.c8656031bea25bb9d69600934d98423d.json 
+#1706016370
+adb 
+#1706016374
+adb devices
+#1706016467
+adb shell
+#1706016479
+adb shell --help
+#1706016483
+adb shell 
+#1706016537
+adb shell pm list packages
+#1706016550
+adb shell pm list packages >~/Desktop/k50.txt
+#1706016575
+adb shell pm list packages 
+#1706016578
+adb shell pm list 
+#1706016522
+adb shell
+#1706016740
+adb shell pm uninstall --user 0 com.miui.systemAdSolution #小米系统广告解决方案，必删
+#1706016747
+adb shell pm uninstall --user 0 com.miui.cit # CIT手机测试
+#1706016759
+adb shell pm uninstall --user 0 com.miui.maintenancemode
+#1706016835
+exi
+#1706016852
+adb shell pm list packages
+#1706016863
+adb shell pm list packages | awk -F '' '{print$0}'
+#1706016868
+adb shell pm list packages | awk -F ':' '{print$0}'
+#1706016871
+adb shell pm list packages | awk -F ':' '{print$1}'
+#1706016872
+adb shell pm list packages | awk -F ':' '{print$2}'
+#1706016891
+adb shell pm list packages | awk -F ':' '{print$2}' >~/Desktop/k50.txt 
+#1706016915
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2}' >~/Desktop/k50.txt 
+#1706016938
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}' >~/Desktop/k50.txt 
+#1706016977
+mkdir k50-init
+#1706016985
+cat ../mac-init/
+#1706016992
+mv ~/Desktop/k50.txt .
+#1706017034
+git init
+#1706017040
+git add k50.txt 
+#1706017048
+git commit -m "init commit"
+#1706018808
+supervisord 
+#1706019650
+adb shell pm uninstall --user 0 com.miui.daemon; #MIUI质量服务 服务与反馈，系统出现bug可以通过这个反馈给官方
+#1706019650
+adb shell pm uninstall --user 0 com.miui.yellowpage; #黄页（来电识别，归属地之类的）
+#1706019657
+vim /tmp/bb.sh
+#1706019664
+sh /tmp/bb.sh 
+#1706019720
+vim /tmp/c.sh
+#1706019727
+sh /tmp/c.sh 
+#1706019824
+adb shell pm uninstall --user 0 com.miui.notes;
+#1706019862
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}'
+#1706019870
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}' | grep note
+#1706019976
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}'
+#1706020037
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}'|grep tencent
+#1706020044
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}'|grep taobao
+#1706020053
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}'|grep uc
+#1706020373
+vim /tmp/cc.sh
+#1706020377
+sh /tmp/cc.sh 
+#1706020393
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}'
+#1706020400
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}' | grep pdd
+#1706020403
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}' | grep dd
+#1706020408
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}' 
+#1706020739
+adb shell pm uninstall --user 0 com.miui.huanji;
+#1706020740
+adb shell pm uninstall --user 0 com.xiaomi.smarthome;
+#1706020746
+vim /tmp/ccc.sh
+#1706020751
+sh /tmp/ccc.sh 
+#1706020774
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}' | grep ali
+#1706020778
+adb shell pm list packages | awk -F ':' '{print"adb shell pm uninstall --user 0 "$2";"}' | grep ga
+#1706020930
+adb shell pm uninstall --user 0 com.android.managedprovisioning;
+#1706021435
+vim /tmp/a.sh
+#1706021447
+adb
+#1706021453
+adb devices -l
+#1706021458
+sh /tmp/a.sh 
+#1706021856
+adb shell pm uninstall --user 0 com.miui.aod;
+#1706021866
+adb shell pm uninstall --user 0 com.miui.aod
+#1706021974
+adb shell pm uninstall --user 0 com.baidu.input_mi;
+#1706021987
+adb shell pm uninstall --user 0 com.baidu.input_mi
+#1706021988
+adb shell pm uninstall --user 0 com.baidu.input_mi;
+#1706022260
+adb 
+#1706022268
+adb devices -l
+#1706022276
+rm -rf *.sh
+#1706022279
+vim a.sh
+#1706022287
+sh a.sh 
+#1706055959
+supervisord 
+#1706059025
+tailf /tmp/client-std*
+#1706072511
+ping wuzhenhua.cn
+#1706072838
+tailf /tmp/client-std*
+#1706072850
+cat /cluster/frp/frpc.ini 
+#1706072874
+tailf /tmp/client-std*
+#1706077450
+du -sh *
+#1706077492
+df -h
+#1706077523
+du -sh *
+#1706077566
+df -sh *
+#1706077576
+df -h
+#1706077569
+du -sh *
+#1706077631
+cat nexus.properties 
+#1706077667
+cat ehcache.xml 
+#1706077675
+tree
+#1706077701
+cat wrapper.conf 
+#1706077753
+cat nexus.properties 
+#1706078049
+git clone https://github.com/apache/rocketmq.git
+#1706078208
+cat ../ambari/pom.xml 
+#1706078226
+vim pom.xml 
+#1706078269
+mvn clean
+#1706078276
+mvn clean package -DskipTests
+#1706079674
+wget -r -c -np -nc https://archive.apache.org/dist/rocketmq/4.9.7/rocketmq-all-4.9.7-bin-release.zip
+#1706079704
+unzip rocketmq-all-4.9.7-bin-release.zip 
+#1706079718
+sh producer.sh 
+#1706079737
+ps -ef|grep produce
+#1706079753
+cat rmq_run_class_gc_pid8969_2024-01-24_15-01-59.log 
+#1706079756
+mount
+#1706079775
+fdisk -l
+#1706079777
+fdisk 
+#1706079793
+diskutil 
+#1706079795
+diskutil list
+#1706079853
+cat producer.sh 
+#1706079899
+sh producer.sh 
+#1706079907
+ps -ef|grep rocket
+#1706079913
+kill 
+#1706079920
+kill 9036
+#1706079990
+./play.
+#1706079991
+./play.sh 
+#1706080607
+mv /tmp/archive.apache.org/dist/rocketmq/4.9.7/rocketmq-all-4.9.7-bin-release.zip .
+#1706080645
+./mqnamesrv
+#1706080654
+cat mqnamesrv
+#1706080670
+sh -x ./mqnamesrv
+#1706080687
+export ROCKETMQ_HOME=/cluster/rocketmq-all-4.9.6
+#1706080692
+sh /cluster/rocketmq-all-4.9.6/bin/runserver.sh org.apache.rocketmq.namesrv.NamesrvStartup
+#1706080696
+sh / -xcluster/rocketmq-all-4.9.6/bin/runserver.sh org.apache.rocketmq.namesrv.NamesrvStartup
+#1706080707
+cat runserver.sh 
+#1706080778
+cat /cluster/ramfs/ramfs.sh 
+#1706080812
+hdid
+#1706080815
+hdid -help
+#1706080851
+hdid -nomount
+#1706080855
+hdid -nomount -help
+#1706080864
+hdiutil -nomount -help
+#1706080889
+hdiutil mount
+#1706080899
+hdiutil attach -help
+#1706080927
+cat runserver.sh 
+#1706080952
+sed
+#1706080956
+which sed
+#1706081178
+wget -r -c -np -nc https://ftp.gnu.org/gnu/sed/sed-4.9.tar.gz
+#1706081184
+env
+#1706081209
+tar -zxvf sed-4.9.tar.gz 
+#1706081216
+cat INSTALL 
+#1706081236
+./configure --help
+#1706081266
+sed
+#1706081269
+sed --help
+#1706081271
+man sed
+#1706081250
+./configure --prefix=/tmp/aa
+#1706081285
+make
+#1706081302
+make install
+#1706081311
+./sed 
+#1706081315
+./sed --help
+#1706081319
+./sed --version
+#1706081325
+sed --version
+#1706081344
+mv /tmp/ftp.gnu.org/gnu/sed/sed-4.9.tar.gz .
+#1706081352
+tar -zxvf sed-4.9.tar.gz 
+#1706081365
+./configure --prefix=/cluster/sed-4.9
+#1706081406
+make
+#1706081421
+make install
+#1706081432
+vim ~/.bash_p
+#1706081435
+vim ~/.bash_profile 
+#1706081479
+ln -s sed-4.9 sed
+#1706081485
+sed
+#1706081488
+sed --version
+#1706081491
+vim ~/.bash_profile 
+#1706081509
+sed --version
+#1706081532
+./mqnamesrv
+#1706081541
+config statu
+#1706081546
+config status
+#1706081565
+cat config 
+#1706081587
+config config --local status.showUntrackedFiles no
+#1706081589
+cat config 
+#1706081591
+config status
+#1706081598
+cat config 
+#1706081610
+config status
+#1706081622
+config commit -m "add sed path"
+#1706081642
+config commit -a
+#1706081699
+config commit

@@ -304,6 +304,9 @@ export PATH=$PATH:$SCALA_HOME/bin
 SCHEMA_REGISTRY=$basedir/schema-registry
 export PATH=$PATH:$SCHEMA_REGISTRY/bin
 
+SED_HOME=$basedir/sed
+export PATH=$SED_HOME/bin:$PATH
+
 SHELLCHECK=$basedir/shellcheck
 export PATH=$PATH:$SHELLCHECK
 
